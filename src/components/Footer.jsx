@@ -11,7 +11,6 @@ export default function Footer() {
   return (
     <footer className="footer-bg w-full flex flex-col items-center justify-center py-14 px-4 mt-24 rounded-t-3xl shadow-2xl shadow-purple-900/20">
       <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-20 items-center">
-        {/* Contact */}
         <div className="flex flex-col items-center md:items-start">
           <div className="footer-section-title">Contact</div>
           <a

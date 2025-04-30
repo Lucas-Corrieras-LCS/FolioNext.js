@@ -34,11 +34,11 @@ export default function WavyText2() {
 
   return (
     <div
-      className="container flex justify-center items-center w-full text-center"
+      className="container flex justify-center items-center w-full text-center "
       ref={containerRef}
     >
-      <h1 className="h1">
-        Mes <span className="wavy  text-purple-500 py-3">Compétences</span>
+      <h1 className="h1 text-[2.75rem] md:text-6xl">
+        Mes <span className="wavy text-purple-500 py-3">Compétences</span>
       </h1>
       <Stylesheet />
     </div>

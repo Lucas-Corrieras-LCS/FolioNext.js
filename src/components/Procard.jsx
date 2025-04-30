@@ -26,7 +26,7 @@ const projets = [
 
 export default function DerniersProjets() {
   return (
-    <section className="flex flex-col items-center justify-center py-16 px-4">
+    <section className="flex flex-col items-center justify-center pt-16 px-4">
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -34,7 +34,7 @@ export default function DerniersProjets() {
         variants={{
           visible: { transition: { staggerChildren: 0.18 } },
         }}
-        className="flex flex-wrap justify-center items-center w-full md:w-auto gap-8 py-8 px-4 md:px-8 bg-neutral-900 rounded-2xl shadow-2xl shadow-purple-500/20"
+        className="flex footer-bg flex-wrap justify-center items-center w-full md:w-auto gap-8 py-8 px-4 md:px-8 bg-neutral-900 rounded-2xl shadow-2xl shadow-purple-500/20"
       >
         {projets.map((proj, i) => (
           <motion.div
@@ -81,7 +81,7 @@ export default function DerniersProjets() {
         className="text-center mt-10"
       >
         <a href="#">
-          <button className="group w-14 hover:w-64 h-14 bg-gradient-to-r from-neutral-900 to-neutral-800 rounded-lg text-neutral-50 font-bold flex flex-row text-center justify-start items-center px-2 pr-6 shadow-lg shadow-purple-500/30 transition-all duration-700 overflow-hidden">
+          <button className="footer-bg group w-14 hover:w-64 h-14 bg-gradient-to-r from-neutral-900 to-neutral-800 rounded-lg text-neutral-50 font-bold flex flex-row text-center justify-start items-center px-2 pr-6 shadow-lg shadow-purple-500/30 transition-all duration-700 overflow-hidden">
             <svg
               className="w-8 h-8 shrink-0"
               xmlns="http://www.w3.org/2000/svg"

@@ -37,7 +37,7 @@ export default function WavyText3() {
       className="container flex justify-center items-center w-full text-center px-4"
       ref={containerRef}
     >
-      <h1 className="h1">
+      <h1 className="h1 text-[2.75rem] md:text-6xl">
         Mes Derniers <span className="wavy  text-purple-500 py-3">Projets</span>
       </h1>
       <Stylesheet />

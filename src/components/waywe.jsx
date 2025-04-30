@@ -37,7 +37,7 @@ export default function WavyText() {
       className="container flex justify-center items-center w-full text-center"
       ref={containerRef}
     >
-      <h1 className="font-bold">
+      <h1 className="h1 text-[2.75rem] md:text-6xl">
         Développeur{" "}
         <span className="wavy text-[#a855f7] py-3 inline-block">Front-End</span>
       </h1>
