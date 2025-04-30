@@ -46,7 +46,7 @@ const itemsData = [
     title: "C++",
     description:
       "Programmation, projets Arduino et logique algorithmique poussée.",
-    image: "/c.jpg",
+    image: "/C.jpg",
   },
   {
     title: "WordPress",
