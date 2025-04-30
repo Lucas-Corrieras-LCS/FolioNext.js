@@ -16,7 +16,7 @@ const itemsData = [
     title: "Next.js",
     description:
       "Développement fullstack moderne avec rendu côté serveur et performances optimisées.",
-    image: "/next.jpg",
+    image: "/Next.jpg",
   },
   {
     title: "Tailwind CSS",
@@ -46,7 +46,7 @@ const itemsData = [
     title: "C++",
     description:
       "Programmation, projets Arduino et logique algorithmique poussée.",
-    image: "/c++.jpg",
+    image: "/C++.jpg",
   },
   {
     title: "WordPress",
