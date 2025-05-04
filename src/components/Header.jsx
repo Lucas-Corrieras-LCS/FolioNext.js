@@ -20,7 +20,7 @@ export default function Header() {
 
   const navItems = [
     { label: "Accueil", icon: <FiHome />, href: "/" },
-    { label: "Projets", icon: <FiFolder />, href: "#projets" },
+    { label: "Projets", icon: <FiFolder />, href: "/projets" },
     { label: "À Propos de moi", icon: <FiUser />, href: "#about" },
   ];
 

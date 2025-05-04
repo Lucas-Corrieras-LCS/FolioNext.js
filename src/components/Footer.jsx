@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="footer-section-title">Retrouvez-moi</div>
           <div className="flex gap-6 mt-1">
             <a
-              href="https://github.com/ton-github"
+              href="https://github.com/Lucas-Corrieras-LCS"
               target="_blank"
               rel="noopener noreferrer"
               className="network-link"
@@ -39,7 +39,7 @@ export default function Footer() {
               <FaGithub />
             </a>
             <a
-              href="https://linkedin.com/in/ton-linkedin"
+              href="https://www.linkedin.com/in/lucas-corrieras-033320339/"
               target="_blank"
               rel="noopener noreferrer"
               className="network-link"
@@ -49,7 +49,7 @@ export default function Footer() {
               <FaLinkedin />
             </a>
             <a
-              href="https://instagram.com/ton-insta"
+              href="https://www.instagram.com/lucas.pkfr/"
               target="_blank"
               rel="noopener noreferrer"
               className="network-link"

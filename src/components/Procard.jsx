@@ -5,22 +5,22 @@ import Image from "next/image";
 
 const projets = [
   {
-    src: "/portfolio1.jpeg",
-    alt: "Image de mon portfolio",
-    label: "Mon Premier Portfolio",
-    href: "#",
+    src: "/VPS.jpg",
+    alt: "Image de mon vps",
+    label: "Mon VPS",
+    href: "/projets/mon-vps",
   },
   {
     src: "/ferrarie.jpg",
     alt: "Image de mon site Ferrari",
     label: "Mon Site Ferrari",
-    href: "#",
+    href: "/projets/site-ferrari",
   },
   {
-    src: "/vid.jpg",
-    alt: "Image de ma vidéo",
-    label: "Interview Professionnel",
-    href: "#",
+    src: "/BMW.jpeg",
+    alt: "Image de mon site BMW",
+    label: "Mon Site BMW",
+    href: "/projets/site-bmw-motorsport",
   },
 ];
 
@@ -80,7 +80,7 @@ export default function DerniersProjets() {
         viewport={{ once: true }}
         className="text-center mt-10"
       >
-        <a href="#">
+        <a href="/projets">
           <button className="footer-bg group w-14 hover:w-64 h-14 bg-gradient-to-r from-neutral-900 to-neutral-800 rounded-lg text-neutral-50 font-bold flex flex-row text-center justify-start items-center px-2 pr-6 shadow-lg shadow-purple-500/30 transition-all duration-700 overflow-hidden">
             <svg
               className="w-8 h-8 shrink-0"
