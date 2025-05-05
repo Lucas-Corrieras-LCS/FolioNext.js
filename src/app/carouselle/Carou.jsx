@@ -4,6 +4,7 @@ import { useState, useRef, useEffect, useLayoutEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { IoArrowBackOutline, IoArrowForwardOutline } from "react-icons/io5";
 import Image from "next/image";
+import Link from "next/link";
 
 const itemsData = [
   {
@@ -171,7 +172,6 @@ const Slider = () => {
             fill
             className="object-cover"
             priority={activeIndex < 2}
-            style={{ position: "absolute", top: 0, left: 0 }}
           />
 
           <motion.div
@@ -187,24 +187,11 @@ const Slider = () => {
             <p className="text-lg max-w-xl mb-6 opacity-90">
               {itemsData[activeIndex]?.description}
             </p>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-6 py-3 bg-purple-600 rounded-lg font-semibold flex items-center gap-2 w-fit"
-            >
-              En savoir plus
-              <IoArrowForwardOutline className="mt-1" />
-            </motion.button>
           </motion.div>
         </motion.div>
       </AnimatePresence>
 
-      <style jsx global>{`
-        html {
-          overflow-x: hidden;
-        }
-      `}</style>
-
+      {/* Boutons de navigation */}
       <div className="absolute inset-0 flex items-center justify-between px-4 z-40">
         <motion.button
           onClick={handlePrev}
@@ -214,6 +201,7 @@ const Slider = () => {
         >
           <IoArrowBackOutline className="text-3xl text-white" />
         </motion.button>
+
         <motion.button
           onClick={handleNext}
           whileHover={{ scale: 1.1 }}
@@ -224,6 +212,7 @@ const Slider = () => {
         </motion.button>
       </div>
 
+      {/* Indicateurs de slide */}
       <div className="absolute bottom-8 right-8 flex gap-2 z-40">
         {itemsData.map((_, index) => (
           <motion.div

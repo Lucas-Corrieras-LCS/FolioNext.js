@@ -15,7 +15,7 @@ export const projets = [
     description:
       "Ce projet a été réalisé dans un cadre scolaire, mais j’ai décidé de le pousser plus loin en y ajoutant des éléments d’apprentissage personnel. Initialement axé sur une simple interface front-end, j’en ai profité pour approfondir Tailwind CSS, ce qui m’a permis de gagner en fluidité dans la création d’interfaces réactives et épurées. Le design reprend les codes du luxe pour coller à l’image de Ferrari.\n\nDans un second temps, le projet a évolué vers un développement complet avec une architecture front-end/back-end. J’ai intégré PHP pour gérer la logique serveur ainsi qu'une base de données MySQL (via MariaDB). L’objectif était de relier le site à une interface d’administration permettant d’ajouter, modifier ou supprimer des entrées dans la base de données.\n\nCe travail m’a donné une solide introduction aux concepts de CRUD (Create, Read, Update, Delete) et à la communication entre un site web dynamique et sa base de données. Il représente l’un de mes premiers projets complets mêlant front-end moderne et back-end fonctionnel.",
     descriptionCourte: "Plateforme front/back avec gestion de base de données",
-    image: "/Ferrarie.jpg",
+    image: "/ferrarie.jpg",
     technologies: ["HTML", "Tailwind CSS", "JavaScript", "PHP", "MySQL"],
     lien: "https://mmi24b11.sae203.ovh",
   },
