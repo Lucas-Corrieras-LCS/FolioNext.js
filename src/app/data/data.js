@@ -20,6 +20,17 @@ export const projets = [
     lien: "https://mmi24b11.sae203.ovh",
   },
   {
+    id: "mon-deuxieme-portfolio",
+    titre: "Mon Deuxième Portfolio",
+    description:
+      "Il s'agit de la seconde version de mon portfolio, et du premier site que j’ai entièrement hébergé moi-même grâce à Vercel et GitHub. L’objectif était de centraliser mes projets réalisés en cours tout en expérimentant librement sur le plan graphique.\n\nJ’ai conçu l’interface en testant un design immersif et moderne, avec un fond animé, un menu hamburger réutilisable et une structure claire. C’était aussi un terrain d’apprentissage pour progresser en front-end et tester certaines pratiques comme le SEO, bien que mes compétences en JavaScript étaient encore limitées à ce stade.\n\nCe projet reste important dans mon parcours : il m’a permis de gérer moi-même toute la configuration d’hébergement, du déploiement à la mise en ligne. Bien qu’il ne reflète plus mes compétences actuelles — notamment en termes d’optimisation, de fluidité et de conception responsive — il marque un tournant dans ma démarche professionnelle.",
+    descriptionCourte:
+      "Deuxième version de mon portfolio, hébergée par mes soins avec GitHub et Vercel.",
+    image: "/folio1.jpg",
+    technologies: ["Vercel", "GitHub", "Hébergement"],
+    lien: "http://193.168.147.179/Port",
+  },
+  {
     id: "site-bmw-motorsport",
     titre: "Site BMW Motorsport",
     description:
@@ -30,6 +41,7 @@ export const projets = [
     technologies: ["HTML", "CSS", "JavaScript", "PHP"],
     lien: "https://mmi24b11.sae105.ovh",
   },
+
   {
     id: "mon-premier-portfolio",
     titre: "Mon Premier Portfolio",
@@ -59,7 +71,7 @@ export const projets = [
     descriptionCourte: "Création d’une identité visuelle complète",
     image: "/charte.jpeg",
     technologies: ["Photoshop", "Illustrator", "InDesign"],
-    lien: "/pdf/Charte-Graphique-Corrieras-Lucas.pdf",
+    lien: "/Charte-Graphique-Corrieras-Lucas .pdf",
   },
   {
     id: "projet-declassement",
@@ -69,7 +81,7 @@ export const projets = [
     descriptionCourte: "Présentation pour déclasser un terrain agricole",
     image: "/declass.jpeg",
     technologies: ["PowerPoint"],
-    lien: "/pdf/Projet_airbnb.pdf",
+    lien: "/Projet_airbnb.pdf",
   },
   {
     id: "strategie-marketing-revive",
@@ -79,7 +91,7 @@ export const projets = [
     descriptionCourte: "Campagne marketing pour une marque éthique",
     image: "/revive.jpeg",
     technologies: ["Photoshop", "InDesign", "Marketing stratégique"],
-    lien: "/pdf/SAE 102.pdf",
+    lien: "/SAE 102.pdf",
   },
   {
     id: "projet-robotik",
@@ -89,6 +101,6 @@ export const projets = [
     descriptionCourte: "Robot Arduino avec mode autonome et manuel",
     image: "/robotik.jpg",
     technologies: ["C++", "Arduino Uno", "Électronique", "3D Printing"],
-    lien: "#",
+    lien: "/Diaporama - Projet IT 1STI2D 2023 - CORRIERAS.pdf",
   },
 ];
