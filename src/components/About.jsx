@@ -28,11 +28,11 @@ export default function About() {
       >
         <motion.div variants={fadeIn} className="lg:w-1/2">
           <Image
-            src="/moi.jpg"
+            src="/moi.JPG"
             alt="Lucas Corrieras"
             width={600}
             height={400}
-            className="rounded-2xl shadow-2xl hover:-rotate-2 transition-transform duration-300 object-cover"
+            className="rounded-2xl shadow-2xl hover:-rotate-2 hover:shadow-purple-500/30 transition-all duration-300 object-cover"
           />
         </motion.div>
 
@@ -92,7 +92,7 @@ export default function About() {
             alt="Compétences"
             width={600}
             height={300}
-            className="rounded-2xl shadow-2xl hover:rotate-2 transition-transform duration-300 object-cover"
+            className="rounded-2xl shadow-2xl hover:rotate-2 hover:shadow-purple-500/30 transition-all duration-300 object-cover"
           />
         </motion.div>
 
@@ -146,7 +146,7 @@ export default function About() {
             alt="Diplômes"
             width={600}
             height={400}
-            className="rounded-2xl shadow-2xl hover:-rotate-2 transition-transform duration-300 object-cover"
+            className="rounded-2xl shadow-2xl hover:-rotate-2 hover:shadow-purple-500/30 transition-all duration-300 object-cover"
           />
         </motion.div>
 
