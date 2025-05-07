@@ -2,7 +2,7 @@
 
 Welcome to the second version of my personal portfolio, now fully rebuilt with a modern front-end stack to deliver better performance, scalability, and responsiveness.
 
-🔗 **Live site**: [Lucas.corrieras.com](https://www.lucas.corrieras.com)
+🔗 **Live site**: [Lucas-corrieras.com](https://www.lucas-corrieras.com)
 
 ---
 
