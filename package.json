@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbopack & npx next-video sync -w",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -16,6 +16,7 @@
     "motion": "^12.9.2",
     "motion-plus": "^0.1.6",
     "next": "15.3.1",
+    "next-video": "^2.2.0",
     "particles.js": "^2.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

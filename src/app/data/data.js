@@ -10,6 +10,16 @@ export const projets = [
     lien: "http://193.168.147.179/",
   },
   {
+    id: "ma-video",
+    titre: "Vidéo de Présentation",
+    description:
+      "C’est la seconde version de mon serveur VPS, dédiée à l’hébergement de mes projets réalisés en cours. Nous avions carte blanche sur la présentation, ce qui m’a permis de créer une interface qui reflète pleinement mon univers graphique.\n\nJ’ai utilisé Tailwind CSS pour concevoir un design moderne et immersif, en expérimentant notamment avec un background personnalisé et un menu hamburger que j’ai réutilisé et optimisé. L’objectif était aussi de progresser en front-end tout en gardant une structure claire pour faciliter la navigation entre les différents travaux.\n\nCette version repose toujours sur une configuration VPS avec Apache, que j’ai entièrement gérée moi-même, du déploiement à la mise en ligne. Elle témoigne à la fois de mon autonomie technique et de mon sens du détail visuel.",
+    descriptionCourte: "Interface personnalisée pour mes projets hébergés",
+    image: "/video.png",
+    technologies: ["Premiere Pro", "After Effects", "Cinema 4D"],
+    lien: "https://youtu.be/FnL8lILt4b4",
+  },
+  {
     id: "site-ferrari",
     titre: "Site Ferrari",
     description:
