@@ -74,7 +74,7 @@ export default function About() {
 
           <div className="flex space-x-4 mt-4">
             <a
-              href="/cv.pdf"
+              href="/CV_FINAL.pdf"
               download="Lucas_Corrieras_CV.pdf"
               className="flex items-center px-6 py-3 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg hover:scale-105 transition-transform duration-300"
             >
