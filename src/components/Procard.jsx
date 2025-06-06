@@ -17,10 +17,10 @@ const projets = [
     href: "/projets/site-ferrari",
   },
   {
-    src: "/BMW.jpeg",
-    alt: "Image de mon site BMW",
-    label: "Mon Site BMW",
-    href: "/projets/site-bmw-motorsport",
+    src: "/site-eco.png",
+    alt: "Image de mon site Eco",
+    label: "Site optimisé",
+    href: "/projets/site-eco",
   },
 ];
 

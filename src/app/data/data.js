@@ -1,5 +1,25 @@
 export const projets = [
   {
+    id: "site-eco",
+    titre: "Site optimisé",
+    description:
+      "Ce projet est le fruit d’un travail approfondi en intégration web, avec une attention particulière portée à la performance et à l’optimisation du chargement. Réalisé dans un contexte scolaire, j’ai volontairement poussé l’exercice plus loin en mettant en place de bonnes pratiques professionnelles : minification du CSS et du JavaScript, compression d’images en amont (évitant tout retraitement par le navigateur), structuration propre du HTML et rigueur dans l’utilisation des balises sémantiques.\n\nL’architecture du projet reste front-end, mais s’inscrit dans une démarche de qualité : chargement rapide, accessibilité de base respectée, responsive design maîtrisé et code lisible. L’esthétique a été conçue avec finesse pour s’adapter à un projet type e-commerce ou vitrine institutionnelle.\n\nCe projet m’a permis de perfectionner mes compétences en intégration HTML/CSS/JS, en me concentrant non seulement sur le rendu visuel mais aussi sur la performance technique, un aspect souvent négligé mais essentiel dans le web moderne.",
+    descriptionCourte: "Site front-end optimisé pour la performance",
+    image: "/site-eco.png",
+    technologies: ["HTML", "CSS minifié", "JavaScript minifié"],
+    lien: "http://193.168.147.179/figma/index.html",
+  },
+  {
+    id: "vidmmi",
+    titre: "Présentation MMI façon influenceur",
+    description:
+      "Ce projet est une vidéo de présentation originale réalisée dans le cadre de mes études en MMI, avec l’objectif de promouvoir notre formation de manière moderne et percutante. J’ai choisi une approche inspirée du style 'influenceur' pour capter l’attention dès les premières secondes, en mêlant dynamisme, humour et codes visuels actuels.\n\nLe montage a été réalisé avec Adobe Premiere Pro et After Effects pour y intégrer des effets visuels, des transitions fluides, de la typographie animée et un habillage rythmé. Chaque plan a été pensé pour faire passer un message clair tout en gardant un ton jeune, engageant et accessible, fidèle à l’esprit de la formation.\n\nCe projet m’a permis de renforcer mes compétences en post-production vidéo, storytelling court, rythme et mise en scène. Il illustre ma capacité à adapter un message institutionnel dans un format créatif, attractif et adapté aux réseaux sociaux.",
+    descriptionCourte: "Vidéo promo MMI dynamique style influenceur",
+    image: "/vidmmi.png",
+    technologies: ["Premiere Pro", "After Effects"],
+    lien: "https://youtu.be/Shw7WDWJBbI",
+  },
+  {
     id: "mon-vps",
     titre: "Mon VPS",
     description:
